@@ -15,7 +15,7 @@ export class AddEmployeeRepositorySpy implements AddEmployeeRepository {
 
 export class DeleteEmployeeRepositorySpy implements DeleteEmployeeRepository {
   id: string
-  result: boolean = false
+  result: boolean = true
 
   async delete (id: string): Promise<boolean> {
     this.id = id
