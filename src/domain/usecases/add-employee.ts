@@ -1,4 +1,4 @@
-import { EmployeeModel } from '../models/employee'
+import { EmployeeModel } from '@/domain/models'
 
 export type AddEmployeeParams = Omit<EmployeeModel, 'id'>
 

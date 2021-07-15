@@ -1,7 +1,7 @@
-import { EmployeeModel } from '../../../src/domain/models'
-import { AddEmployeeParams } from '../../../src/domain/usecases'
-import { AddEmployeeRepository } from '../../../src/data/protocols'
-import { mockEmployeeModel } from '../../domain/mocks/employee'
+import { EmployeeModel } from '@/domain/models'
+import { AddEmployeeParams } from '@/domain/usecases'
+import { AddEmployeeRepository } from '@/data/protocols'
+import { mockEmployeeModel } from '@/tests/domain/mocks/employee'
 
 export class AddEmployeeRepositorySpy implements AddEmployeeRepository {
   params: AddEmployeeParams

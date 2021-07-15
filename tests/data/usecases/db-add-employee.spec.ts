@@ -1,6 +1,6 @@
-import { DbAddEmployee } from '../../../src/data/usecases'
-import { mockAddEmployeeParams, mockEmployeeModel } from '../../domain/mocks/employee'
-import { AddEmployeeRepositorySpy } from '../mocks/repositories'
+import { DbAddEmployee } from '@/data/usecases'
+import { mockAddEmployeeParams, mockEmployeeModel } from '@/tests/domain/mocks/employee'
+import { AddEmployeeRepositorySpy } from '@/tests/data/mocks/repositories'
 
 interface SutTypes {
   sut: DbAddEmployee

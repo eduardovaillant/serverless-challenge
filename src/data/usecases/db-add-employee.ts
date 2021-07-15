@@ -1,6 +1,6 @@
-import { AddEmployeeRepository } from '../protocols'
-import { EmployeeModel } from '../../domain/models'
-import { AddEmployee, AddEmployeeParams } from '../../domain/usecases'
+import { AddEmployeeRepository } from '@/data/protocols'
+import { EmployeeModel } from '@/domain/models'
+import { AddEmployee, AddEmployeeParams } from '@/domain/usecases'
 
 export class DbAddEmployee implements AddEmployee {
   constructor (
