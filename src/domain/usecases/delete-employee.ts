@@ -1,3 +1,3 @@
 export interface DeleteEmployee {
-  add: (id: string) => Promise<boolean>
+  delete: (id: string) => Promise<boolean>
 }

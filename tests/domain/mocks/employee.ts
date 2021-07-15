@@ -1,4 +1,4 @@
-import { EmployeeModel } from "../models/employee";
+import { EmployeeModel } from '../models'
 
 export const mockEmployeeModel = (): EmployeeModel => (
   {
