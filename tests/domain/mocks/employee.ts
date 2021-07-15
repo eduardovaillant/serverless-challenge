@@ -1,5 +1,5 @@
 import { AddEmployeeParams } from 'domain/usecases'
-import { EmployeeModel } from '../models'
+import { EmployeeModel } from '@/domain/models'
 
 export const mockEmployeeModel = (): EmployeeModel => (
   {
